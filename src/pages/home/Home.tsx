@@ -1,11 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './Home.css';
 
-function App() {
+export default function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="Home">
+      <header className="Home-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
@@ -22,5 +22,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
