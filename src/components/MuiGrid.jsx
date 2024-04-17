@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Divider, Grid, Stack } from '@mui/material'
+import { Box, Grid } from '@mui/material'
 
 export const MuiGrid = () => {
   return (
